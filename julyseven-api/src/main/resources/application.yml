@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: test
+
+---
+
+server:
+  error:
+    include-message: always
